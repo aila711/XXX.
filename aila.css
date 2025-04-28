@@ -18,7 +18,13 @@
 
   }
   .home
-  
+  .form{
+
+box-shadow: none;
+
+
+
+  }
   
   .navbar {
     display: flex;
@@ -61,7 +67,7 @@
   }
   
   button:hover {
-    background: #350202;
+    background: #000000;
   }
   
   .image-grid {
