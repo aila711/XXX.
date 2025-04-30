@@ -78,7 +78,7 @@
   
   .card {
     width: 250px;
-    background: white;
+    background: rgb(239, 235, 235);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -91,7 +91,7 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 10px;
   }
   
   .card h3 {
