@@ -10,11 +10,47 @@
     color: #ffffff;
     scroll-behavior: smooth;
   }
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu li a:hover {
+    color: #f4f4f4;
+  }
   
   .header {
     background: #5a1a1a;
     padding: 1rem 2rem;
-    color: rgb(108, 47, 47);
+    color: rgb(129, 64, 64);
 
   }
   
@@ -79,7 +115,7 @@
   .card {
     width: 250px;
     background: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     overflow: hidden;
     text-align: center;
@@ -88,8 +124,8 @@
   }
   
   .card img {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
   }
